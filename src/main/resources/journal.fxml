@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <root>
+      <AnchorPane fx:id="sceneAnchor" prefHeight="854.0" prefWidth="1047.0">
+         <children>
+            <HBox prefHeight="690.0" prefWidth="1006.0" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Pane fx:id="sidePanel" prefHeight="767.0" prefWidth="196.0">
+                     <children>
+                        <Label fx:id="settingLabel" alignment="CENTER" layoutX="16.0" prefHeight="47.0" prefWidth="164.0" text="SETTINGS">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="saveWeek" layoutX="32.0" layoutY="43.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="117.0" text="SAVE WEEK" textFill="WHITE" />
+                        <Accordion fx:id="options" layoutX="9.0" layoutY="115.0" prefHeight="316.0" prefWidth="175.0">
+                           <panes>
+                              <TitledPane fx:id="settingMenu1" animated="false" layoutX="10.0" layoutY="10.0" prefHeight="198.0" prefWidth="147.0" style="-fx-background-color: PINK;" text="CUSTOM THEME">
+                                 <content>
+                                    <AnchorPane fx:id="themeMenu1" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <ColorPicker fx:id="sidePaneTheme" layoutX="86.0" layoutY="9.0" prefHeight="25.0" prefWidth="85.0" />
+                                          <ColorPicker fx:id="headerTheme" layoutX="87.0" layoutY="41.0" prefHeight="25.0" prefWidth="85.0" />
+                                          <ColorPicker fx:id="backTheme" layoutX="87.0" layoutY="76.0" prefHeight="25.0" prefWidth="85.0" />
+                                          <Text layoutX="6.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BackTheme" wrappingWidth="78.23984670639038" />
+                                          <Text layoutX="5.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HeaderTheme" wrappingWidth="75.46941328048706">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <Text layoutX="2.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings Theme" wrappingWidth="82.39550733566284">
+                                             <font>
+                                                <Font size="12.0" />
+                                             </font>
+                                          </Text>
+                                          <MenuButton layoutX="87.0" layoutY="110.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" text="FontColor">
+                                             <items>
+                                                <MenuItem mnemonicParsing="false" text="black" />
+                                                <MenuItem mnemonicParsing="false" text="white" />
+                                                <MenuItem mnemonicParsing="false" text="red" />
+                                             </items>
+                                          </MenuButton>
+                                          <Text layoutX="7.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="set Color" wrappingWidth="58.87492895126343" />
+                                          <MenuButton layoutX="86.0" layoutY="143.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="85.0" text="Font fam">
+                                             <items>
+                                                <MenuItem mnemonicParsing="false" text="Arial" />
+                                                <MenuItem mnemonicParsing="false" text="Silom" />
+                                                <MenuItem mnemonicParsing="false" text="Marker Felt" />
+                                                <MenuItem mnemonicParsing="false" text="American Typewriter" />
+                                             </items>
+                                          </MenuButton>
+                                          <Text layoutX="7.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Font Family" wrappingWidth="71.78487920761108" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane fx:id="settingMenu" animated="false" prefHeight="198.0" prefWidth="147.0" style="-fx-background-color: PINK;" text="THEMES">
+                                 <content>
+                                    <AnchorPane fx:id="themeMenu" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <RadioButton fx:id="blueBackground" accessibleRole="HYPERLINK" layoutX="4.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="142.0" text="Blue">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="tgBackground" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton fx:id="emmaBackground" layoutX="4.0" layoutY="37.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="142.0" text="Emma" toggleGroup="$tgBackground" />
+                                          <RadioButton fx:id="katieBackground" layoutX="2.0" layoutY="73.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="146.0" text="Katie" toggleGroup="$tgBackground" />
+                                          <RadioButton fx:id="defaultBackground" layoutX="3.0" layoutY="113.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="145.0" text="Default" toggleGroup="$tgBackground" />
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </TitledPane>
+                              <TitledPane fx:id="categoryMenu" animated="false" prefHeight="368.0" prefWidth="175.0" text="CATEGORIES">
+                                 <content>
+                                    <AnchorPane fx:id="categoriesBackground" minHeight="0.0" minWidth="0.0" prefHeight="329.0" prefWidth="173.0" />
+                                 </content>
+                              </TitledPane>
+                           </panes>
+                        </Accordion>
+                        <Button fx:id="openPrev" layoutX="22.0" layoutY="636.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="152.0" text="Open File" textFill="WHITE" />
+                        <Button fx:id="saveAs" layoutX="46.0" layoutY="78.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="82.0" text="Save As" textFill="#fffbfb" />
+                        <Button fx:id="openTemplate" layoutX="20.0" layoutY="575.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="154.0" text="Save file as template" textFill="WHITE" />
+                        <TextField fx:id="setPass" layoutX="17.0" layoutY="511.0" prefHeight="45.0" prefWidth="158.0" promptText="Set Password">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </TextField>
+                        <Button fx:id="savePass" layoutX="31.0" layoutY="476.0" minWidth="53.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="53.0" text="Save" textFill="WHITE" />
+                        <Button fx:id="editPass" layoutX="98.0" layoutY="476.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="58.0" text="Edit" textFill="WHITE" />
+                     </children>
+                  </Pane>
+                  <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="690.0" prefWidth="810.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox prefHeight="53.0" prefWidth="851.0">
+                           <children>
+                              <Label fx:id="currFile" prefHeight="73.0" prefWidth="837.0" text="Current file: " HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                        <HBox fx:id="weekNamePane" prefHeight="53.0" prefWidth="810.0">
+                           <children>
+                              <MenuButton fx:id="weekStart" mnemonicParsing="false" prefHeight="34.0" prefWidth="124.0" text="Start week with:" HBox.hgrow="ALWAYS">
+                                 <items>
+                                    <MenuItem mnemonicParsing="false" text="Sunday" />
+                                    <MenuItem mnemonicParsing="false" text="Monday" />
+                                    <MenuItem mnemonicParsing="false" text="Tuesday" />
+                                    <MenuItem mnemonicParsing="false" text="Wednesday" />
+                                    <MenuItem mnemonicParsing="false" text="Thursday" />
+                                    <MenuItem mnemonicParsing="false" text="Friday" />
+                                    <MenuItem mnemonicParsing="false" text="Saturday" />
+                                 </items>
+                              </MenuButton>
+                              <TextField fx:id="weekNameBox" alignment="CENTER" prefHeight="49.0" prefWidth="307.0" promptText="Enter week name here" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font size="27.0" />
+                                 </font>
+                              </TextField>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Set max to-dos for each day:  -&gt;" underline="true" wrappingWidth="132.6947021484375" HBox.hgrow="ALWAYS" />
+                              <Spinner fx:id="maxEvents" prefHeight="36.0" prefWidth="128.0" />
+                              <SplitMenuButton fx:id="dropDownButton" mnemonicParsing="false" prefHeight="35.0" prefWidth="183.0" text="Add New +" textAlignment="CENTER" textFill="#141414" HBox.hgrow="ALWAYS">
+                                 <items>
+                                    <MenuItem fx:id="taskButton" mnemonicParsing="false" text="New Task" />
+                                    <MenuItem fx:id="eventButton" mnemonicParsing="false" text="New Event" />
+                                 </items>
+                              </SplitMenuButton>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="weekDisplay" prefHeight="632.0" prefWidth="1264.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <VBox prefHeight="697.0" prefWidth="180.0">
+                                 <children>
+                                    <Label fx:id="day1" alignment="CENTER" prefHeight="27.0" prefWidth="233.0" text="Monday" underline="true">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <VBox fx:id="mondayPane" prefHeight="606.0" prefWidth="120.0" style="-fx-border-color: black;" VBox.vgrow="NEVER" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="632.0" prefWidth="189.0">
+                                 <children>
+                                    <Label fx:id="day2" alignment="CENTER" prefHeight="27.0" prefWidth="233.0" text="Tuesday" underline="true">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <VBox fx:id="tuesdayPane" prefHeight="606.0" prefWidth="120.0" style="-fx-border-color: black;" VBox.vgrow="NEVER" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="200.0" prefWidth="180.0">
+                                 <children>
+                                    <Label fx:id="day3" alignment="CENTER" prefHeight="27.0" prefWidth="233.0" text="Wednesday" underline="true">
+                                       <font>
+                                          <Font name="System Font" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <VBox fx:id="wednesdayPane" prefHeight="605.0" prefWidth="121.0" style="-fx-border-color: black;" VBox.vgrow="NEVER" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="200.0" prefWidth="180.0">
+                                 <children>
+                                    <Label fx:id="day4" alignment="CENTER" contentDisplay="CENTER" prefHeight="27.0" prefWidth="233.0" text="Thursday" underline="true">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <VBox fx:id="thursdayPane" prefHeight="606.0" prefWidth="120.0" style="-fx-border-color: black;" VBox.vgrow="NEVER" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="631.0" prefWidth="180.0">
+                                 <children>
+                                    <Label fx:id="day5" alignment="CENTER" prefHeight="27.0" prefWidth="233.0" text="Friday" underline="true">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <VBox fx:id="fridayPane" prefHeight="606.0" prefWidth="120.0" style="-fx-border-color: black;" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="200.0" prefWidth="180.0">
+                                 <children>
+                                    <Label fx:id="day6" alignment="CENTER" prefHeight="27.0" prefWidth="233.0" text="Saturday" underline="true">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <VBox fx:id="saturdayPane" prefHeight="605.0" prefWidth="121.0" style="-fx-border-color: black;" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="200.0" prefWidth="180.0">
+                                 <children>
+                                    <Label fx:id="day7" alignment="CENTER" prefHeight="27.0" prefWidth="233.0" text="Sunday" underline="true">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <VBox fx:id="sundayPane" prefHeight="607.0" prefWidth="121.0" style="-fx-border-color: black;" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </root>
+</Scene>

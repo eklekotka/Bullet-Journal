@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane fx:id="eventPane" prefHeight="400.0" prefWidth="400.0">
+      <children>
+         <VBox layoutX="-1.0" prefHeight="395.0" prefWidth="404.0">
+            <children>
+               <Button fx:id="exitButton" mnemonicParsing="false" text="EXIT" textFill="WHITE" />
+               <Label fx:id="eventCreator" alignment="CENTER" prefHeight="27.0" prefWidth="358.0" text="Event Creator" textFill="#399696">
+                  <font>
+                     <Font size="37.0" />
+                  </font>
+               </Label>
+               <HBox prefHeight="49.0" prefWidth="358.0">
+                  <children>
+                     <Label fx:id="eventNameLabel" prefHeight="37.0" prefWidth="82.0" text="  Name: " textFill="#5aa7d7">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="24.0" />
+                        </font>
+                     </Label>
+                     <HBox prefHeight="55.0" prefWidth="53.0" />
+                     <HBox prefHeight="57.0" prefWidth="172.0">
+                        <children>
+                           <TextField fx:id="eventName" alignment="CENTER" prefHeight="36.0" prefWidth="160.0" />
+                        </children>
+                     </HBox>
+                  </children>
+               </HBox>
+               <HBox prefHeight="55.0" prefWidth="358.0">
+                  <children>
+                     <Label fx:id="descLabel" text="  Description: " textFill="#5aa7d7">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="24.0" />
+                        </font>
+                     </Label>
+                     <HBox prefHeight="52.0" prefWidth="44.0" />
+                     <TextArea fx:id="eventDesc" prefHeight="54.0" prefWidth="173.0" style="-fx-background-color: #55C4E5;" wrapText="true" />
+                  </children>
+               </HBox>
+               <HBox prefHeight="45.0" prefWidth="358.0">
+                  <children>
+                     <Label fx:id="days" prefHeight="41.0" prefWidth="94.0" text="  Day: " textFill="#5aa7d7">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="24.0" />
+                        </font>
+                     </Label>
+                     <HBox prefHeight="54.0" prefWidth="47.0" />
+                     <HBox prefHeight="54.0" prefWidth="199.0">
+                        <children>
+                           <HBox prefHeight="14.0" prefWidth="4.0" />
+                           <VBox maxHeight="-Infinity" minHeight="-Infinity" prefHeight="18.0" prefWidth="223.0" />
+                           <MenuButton fx:id="dayLabel" mnemonicParsing="false" prefHeight="34.0" prefWidth="417.0" text="options">
+                              <items>
+                                 <MenuItem fx:id="sunday" mnemonicParsing="false" text="Sunday" />
+                                 <MenuItem fx:id="monday" mnemonicParsing="false" text="Monday" />
+                                 <MenuItem fx:id="tuesday" mnemonicParsing="false" text="Tuesday" />
+                                 <MenuItem fx:id="wednesday" mnemonicParsing="false" text="Wednesday" />
+                                 <MenuItem fx:id="thursday" mnemonicParsing="false" text="Thursday" />
+                                 <MenuItem fx:id="friday" mnemonicParsing="false" text="Friday" />
+                                 <MenuItem fx:id="saturday" mnemonicParsing="false" text="Saturday" />
+                              </items>
+                           </MenuButton>
+                        </children>
+                     </HBox>
+                  </children>
+               </HBox>
+               <HBox prefHeight="42.0" prefWidth="358.0">
+                  <children>
+                     <Label fx:id="duration" prefHeight="18.0" prefWidth="112.0" text="  Duration:" textFill="#5aa7d7">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="24.0" />
+                        </font>
+                     </Label>
+                     <HBox prefHeight="37.0" prefWidth="13.0" />
+                     <Spinner fx:id="hourSpinner" prefHeight="21.0" prefWidth="82.0" style="-fx-background-color: #5FABC2;" />
+                     <Label prefHeight="36.0" prefWidth="32.0" text="Hr">
+                        <font>
+                           <Font size="19.0" />
+                        </font>
+                     </Label>
+                     <Spinner fx:id="minuteSpinner" editable="true" prefHeight="31.0" prefWidth="85.0" style="-fx-background-color: #5FABC2;" />
+                     <Label prefHeight="42.0" prefWidth="58.0" text=" Min">
+                        <font>
+                           <Font size="18.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+               <HBox prefHeight="46.0" prefWidth="358.0">
+                  <children>
+                     <Label fx:id="startTime" prefHeight="38.0" prefWidth="114.0" text="  Start Time:" textFill="#5aa7d7">
+                        <font>
+                           <Font size="21.0" />
+                        </font>
+                     </Label>
+                     <HBox prefHeight="42.0" prefWidth="16.0" />
+                     <Spinner fx:id="startHourSpinner" prefHeight="38.0" prefWidth="73.0" />
+                     <Label prefHeight="30.0" prefWidth="42.0" text="   :  ">
+                        <font>
+                           <Font size="20.0" />
+                        </font>
+                     </Label>
+                     <Spinner fx:id="startMinuteSpinner" prefHeight="40.0" prefWidth="69.0" />
+                     <Label text="    " />
+                     <SplitMenuButton fx:id="timer" mnemonicParsing="false" text="time">
+                       <items>
+                         <MenuItem fx:id="am" mnemonicParsing="false" text="AM" />
+                         <MenuItem fx:id="pm" mnemonicParsing="false" text="PM" />
+                       </items>
+                     </SplitMenuButton>
+                  </children>
+               </HBox>
+               <HBox prefHeight="37.0" prefWidth="404.0">
+                  <children>
+                     <Label fx:id="category" text="  Category:  " textFill="#5aa7d7">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="24.0" />
+                        </font>
+                     </Label>
+                     <ComboBox fx:id="categoryOpt" accessibleRole="BUTTON" prefWidth="200.0" />
+                     <Button fx:id="saveCategory" mnemonicParsing="false" text="Save new" />
+                  </children>
+               </HBox>
+               <HBox prefHeight="44.0" prefWidth="404.0">
+                  <children>
+                     <Label prefHeight="35.0" prefWidth="275.0" text="                                " />
+                     <Button fx:id="saveButton" alignment="CENTER_RIGHT" mnemonicParsing="false" prefHeight="11.0" prefWidth="66.0" text="Save">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="18.0" />
+                        </font>
+                     </Button>
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>

@@ -1,0 +1,24 @@
+#taskShow{
+    -fx-background-image: url("suns.png");
+}
+
+#taskDescriptionShow{
+    -fx-text-fill: #f25c54;
+    -fx-background-color: #f7b267;
+}
+
+#complete{
+    -fx-text-fill: #f25c54;
+}
+
+#taskNameShow{
+    -fx-text-fill: #f25c54;
+}
+
+#taskDelete{
+    -fx-background-color: #f27059;
+}
+
+#taskExit{
+    -fx-background-color: #f27059;
+}

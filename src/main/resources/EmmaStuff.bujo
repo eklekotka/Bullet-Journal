@@ -1,0 +1,60 @@
+{
+  "planner-week" : {
+    "planner-week" : [ {
+      "day" : "MONDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 3,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "TUESDAY",
+      "tasks" : [ ],
+      "events" : [ {
+        "name" : "sdfgh",
+        "day" : "TUESDAY",
+        "category" : "save",
+        "time" : "03:08",
+        "description" : "asdfgh",
+        "duration" : 10
+      } ],
+      "max-issues" : 3,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "WEDNESDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 3,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "THURSDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 3,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "FRIDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 3,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "SATURDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 3,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "SUNDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 3,
+      "has-hit-items-max" : false
+    } ],
+    "categories" : [ "save" ],
+    "max-to-dos" : 0,
+    "week-start-day" : "MONDAY",
+    "current-theme" : ""
+  },
+  "file-path" : "",
+  "password" : "triplets3"
+}

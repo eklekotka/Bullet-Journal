@@ -1,0 +1,76 @@
+/*CHANGE EVENT CREATION POP-UP*/
+#eventPane {
+    -fx-background-image: url('Crabs.png');
+}
+
+#exitButton {
+    -fx-background-color: #28A7DA;
+}
+
+#saveButton {
+    -fx-background-color: #28A7DA;
+}
+
+#eventName {
+    -fx-background-color: #bde0fe;
+}
+
+#eventDesc {
+    -fx-background-color: #bde0fe;
+}
+
+#dayLabel {
+    -fx-background-color: #bde0fe;
+
+}
+#hourSpinner {
+    -fx-background-color: #bde0fe;
+    -fx-text-fill: #101174;
+}
+#minuteSpinner {
+    -fx-background-color: #bde0fe;
+    -fx-text-fill: #101174;
+}
+#startHourSpinner {
+    -fx-background-color: #bde0fe;
+    -fx-text-fill: #101174;
+}
+#startMinuteSpinner {
+    -fx-background-color: #bde0fe;
+    -fx-text-fill: #101174;
+}
+#categoryOpt {
+    -fx-background-color: #bde0fe;
+    -fx-text-fill: #101174;
+}
+
+#eventCreator {
+    -fx-text-fill: #ffffff;
+}
+
+#eventNameLabel {
+    -fx-text-fill: #ffffff;
+}
+
+#descLabel {
+    -fx-text-fill: #ffffff;
+}
+
+#days {
+    -fx-text-fill: #ffffff;
+}
+
+#duration {
+    -fx-text-fill: #ffffff;
+}
+
+#startTime{
+    -fx-text-fill: #ffffff;
+}
+
+#category {
+    -fx-text-fill: #ffffff;
+}
+.root {
+    -fx-font-family: "Comic Sans ";
+}

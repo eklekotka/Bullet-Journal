@@ -1,0 +1,154 @@
+/*CHANGE COLOR SECTION*/
+
+/*Change the background color to blue */
+.root{
+    -fx-background-color: #F1C0EF;
+}
+
+/*Change the sideBar panel color to a lighter blue */
+#sidePanel{
+    -fx-background-image: url("pa05lofi.png");
+}
+
+/*Change the saveButton color to a lighter blue */
+#saveWeek{
+    -fx-background-color: #D5A8CB;
+}
+
+#mondayPane{
+    -fx-background-image: url("splotches.png");
+}
+
+#tuesdayPane{
+    -fx-background-image: url("germyLookr.png");
+}
+#wednesdayPane{
+    -fx-background-image: url("stars.png");
+}
+#thursdayPane{
+    -fx-background-image: url("splotches.png");
+}
+#fridayPane{
+    -fx-background-image: url("germyLookr.png");
+}
+#saturdayPane{
+    -fx-background-image: url("stars.png");
+}
+#sundayPane{
+    -fx-background-image: url("splotches.png");
+}
+
+/*Change the saveButton color to a lighter blue */
+#themeMenu{
+    -fx-background-image: url("stars.png");
+}
+
+#themeMenu1{
+    -fx-background-image: url("splotches.png");
+}
+#categoriesBackground{
+    -fx-background-image: url("splotches.png");
+}
+
+/*Change the saveButton color to a lighter blue */
+#categoriesBackground{
+    -fx-background-color: #D5A8CA;
+}
+
+/*Change the saveButton color to a lighter blue */
+#settingMenu{
+    -fx-background-color: #DB9DCD;
+}
+
+#weekStart{
+    -fx-background-color: #D5A8CB;
+}
+
+#weekNameBox{
+    -fx-background-color: #F0D7F7;
+}
+
+#maxEvents{
+    -fx-background-color: #F0D7F7;
+}
+#dropDownButton{
+    -fx-background-color: #F0D7F7;
+}
+
+/*change top panel color */
+#weekNamePane{
+    -fx-background-color: #E18FEC;
+}
+
+/*change top panel color */
+.button{
+    -fx-background-color: #D5A8CB;
+}
+
+#settingLabel {
+    -fx-text-fill: #FFFFFF;
+}
+
+/*CHANGE TASK POP-UP*/
+#cPane{
+    -fx-background-color: #5fa8d3;
+}
+
+#exitButton{
+    -fx-background-color: #bbd0ff;
+    -fx-text-fill: #014f86;
+}
+
+#name{
+    -fx-background-color: #e2eafc;
+}
+
+#description{
+    -fx-background-color: #e2eafc;
+}
+
+#dayLabel{
+    -fx-background-color: #e2eafc;
+}
+
+#categoryOpt{
+    -fx-background-color: #e2eafc;
+}
+#saveButton{
+    -fx-background-color: #bbd0ff;
+    -fx-text-fill: #014f86;
+
+}
+
+#nameLabel{
+    -fx-text-fill: #014f86;
+}
+#taskNameLabel{
+    -fx-text-fill: #014f86;
+}
+#descriptionLabel{
+    -fx-text-fill: #014f86;
+}
+#dayChooseLabel{
+    -fx-text-fill: #014f86;
+}
+#categoryLabel{
+    -fx-text-fill: #014f86;
+}
+
+
+/*CHANGE FONT SECTION*/
+/*change the font to Harrington*/
+.root {
+    -fx-font-family: "Baskerville Old Face";
+}
+
+.label {
+    -fx-font-family: "Baskerville Old Face";
+    -fx-text-fill: #C61DEF;
+}
+
+.text-field {
+    -fx-font-family: "Baskerville Old Face";
+    -fx-font-size: 27;
+}

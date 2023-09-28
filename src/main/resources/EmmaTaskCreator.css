@@ -1,0 +1,46 @@
+/*CHANGE TASK POP-UP*/
+#cPane{
+    -fx-background-image: url("marble.png");
+}
+
+#exitButton{
+    -fx-background-color: #bbd0ff;
+    -fx-text-fill: #014f86;
+}
+
+#name{
+    -fx-background-color: #e2eafc;
+}
+
+#description{
+    -fx-background-color: #e2eafc;
+}
+
+#dayLabel{
+    -fx-background-color: #e2eafc;
+}
+
+#categoryOpt{
+    -fx-background-color: #e2eafc;
+}
+#saveButton{
+    -fx-background-color: #bbd0ff;
+    -fx-text-fill: #014f86;
+
+}
+
+#nameLabel{
+    -fx-text-fill: #014f86;
+}
+#taskNameLabel{
+    -fx-text-fill: #014f86;
+}
+#descriptionLabel{
+    -fx-text-fill: #014f86;
+}
+#dayChooseLabel{
+    -fx-text-fill: #014f86;
+}
+#categoryLabel{
+    -fx-text-fill: #014f86;
+}

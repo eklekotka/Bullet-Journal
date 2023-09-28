@@ -1,0 +1,50 @@
+/*CHANGE TASK POP-UP*/
+#cPane{
+    -fx-background-image: url("Candy.png");
+}
+
+#exitButton{
+    -fx-background-color: #EB93AE;
+    -fx-text-fill: #6E686C;
+}
+
+#name{
+    -fx-background-color: #F9D0DC;
+}
+
+#description{
+    -fx-background-color: #F9D0DC;
+}
+
+#dayLabel{
+    -fx-background-color: #F9D0DC;
+}
+
+#categoryOpt{
+    -fx-background-color: #F9D0DC;
+}
+#saveButton{
+    -fx-background-color: #EB93AE;
+    -fx-text-fill: #6E686C;
+
+}
+
+#nameLabel{
+    -fx-text-fill: #605B5C;
+}
+#taskNameLabel{
+    -fx-text-fill: #605B5C;
+}
+#descriptionLabel{
+    -fx-text-fill: #605B5C;
+}
+#dayChooseLabel{
+    -fx-text-fill: #605B5C;
+}
+#categoryLabel{
+    -fx-text-fill: #605B5C;
+}
+.root {
+    -fx-font-family: Verdana;
+    -fx-font-size: 18;
+}

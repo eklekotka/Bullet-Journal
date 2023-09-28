@@ -1,0 +1,22 @@
+#eventShow{
+    -fx-background-image: url("Stripes.png.png");
+}
+
+#eventDescriptionLabel{
+    -fx-text-fill: #615D60;
+    -fx-background-color: #99e2b4;
+}
+
+#eventShowLabel{
+    -fx-text-fill: #615D60;
+    -fx-background-color: #99e2b4;
+}
+
+#eventDelete{
+    -fx-background-color: #F7A4B0;
+    -fx-text-fill: WHITE;
+}
+
+#eventExit{
+    -fx-background-color: #F7A4B0;
+}

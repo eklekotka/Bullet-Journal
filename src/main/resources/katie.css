@@ -1,0 +1,79 @@
+/*CHANGE COLOR SECTION*/
+
+/*Change the background color to blue */
+.root{
+    -fx-background-color: #FAF3DD;
+}
+
+/*Change the sideBar panel color to a lighter blue */
+#sidePanel{
+    -fx-background-image: url('Swirls.png');
+}
+
+/*change top panel color */
+#weekNamePane{
+    -fx-background-color: #FAF3DD;
+}
+
+/*Change the saveButton color to a lighter blue */
+.button{
+    -fx-background-color: #1E352F;
+}
+
+#settingLabel {
+    -fx-text-fill: #FFFFFF;
+}
+
+#mondayPane{
+    -fx-background-image: url("Flowers.jpg");
+}
+
+#tuesdayPane{
+    -fx-background-image: url("Stripes.png");
+}
+#wednesdayPane{
+    -fx-background-image: url("Candy.png");
+}
+#thursdayPane{
+    -fx-background-image: url("Trees.png");
+}
+#fridayPane{
+    -fx-background-image: url("Flowers.jpg");
+}
+#saturdayPane{
+    -fx-background-image: url("Stripes.png");
+}
+#sundayPane{
+    -fx-background-image: url("Candy.png");
+}
+
+
+
+/*change top panel color */
+/*.button{*/
+/*    -fx-background-color: #1E352F;*/
+/*}*/
+
+.label{
+    -fx-text-fill: black;
+}
+
+
+
+/*CHANGE FONT SECTION*/
+
+/*change the font to typeWrite*/
+.root {
+    -fx-font-family: "Verdana";
+}
+
+.label {
+    -fx-font-family: "Verdana";
+}
+
+.text-field {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 18;
+}
+
+

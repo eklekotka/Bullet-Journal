@@ -1,0 +1,71 @@
+/*CHANGE EVENT CREATION POP-UP*/
+#eventPane {
+    -fx-background-image : url("Flowers.jpg");
+}
+
+#exitButton {
+    -fx-background-color: #EE7A3B;
+}
+
+#saveButton {
+    -fx-background-color: #EE7A3B;
+}
+
+#eventName {
+    -fx-background-color: #F7ECA4;
+}
+
+#eventDesc {
+    -fx-background-color: #F7ECA4;
+}
+
+#dayLabel {
+    -fx-background-color: #fff0f3;
+}
+#hourSpinner {
+    -fx-background-color: #fff0f3;
+}
+#minuteSpinner {
+    -fx-background-color: #fff0f3;
+}
+#startHourSpinner {
+    -fx-background-color: #fff0f3;
+}
+#startMinuteSpinner {
+    -fx-background-color: #fff0f3;
+}
+#categoryOpt {
+    -fx-background-color: #fff0f3;
+}
+
+#eventCreator {
+    -fx-text-fill: #F7A4D0;
+}
+
+#eventNameLabel {
+    -fx-text-fill: #F7A4D0;
+}
+
+#descLabel {
+    -fx-text-fill: #F7A4D0;
+}
+
+#days {
+    -fx-text-fill: #F7A4D0;
+}
+
+#duration {
+    -fx-text-fill: #F7A4D0;
+}
+
+#startTime{
+    -fx-text-fill: #F7A4D0;
+}
+
+#category {
+    -fx-text-fill: #F7A4D0;
+}
+.root {
+    -fx-font-family: Verdana;
+    -fx-font-size: 18;
+}

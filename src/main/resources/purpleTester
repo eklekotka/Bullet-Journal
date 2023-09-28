@@ -1,0 +1,64 @@
+{
+  "planner-week" : {
+    "planner-week" : [ {
+      "day" : "MONDAY",
+      "tasks" : [ {
+        "name" : "sdfghjk",
+        "day" : "MONDAY",
+        "category" : "slay",
+        "description" : "wertyuiop",
+        "completed" : false
+      } ],
+      "events" : [ {
+        "name" : "trrr",
+        "day" : "MONDAY",
+        "category" : "coolio",
+        "time" : "16:03",
+        "description" : "sdftyu"
+      } ],
+      "max-issues" : 2,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "TUESDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 2,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "WEDNESDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 2,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "THURSDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 2,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "FRIDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 2,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "SATURDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 2,
+      "has-hit-items-max" : false
+    }, {
+      "day" : "SUNDAY",
+      "tasks" : [ ],
+      "events" : [ ],
+      "max-issues" : 2,
+      "has-hit-items-max" : false
+    } ],
+    "categories" : [ "slay", "coolio" ],
+    "max-to-dos" : 0,
+    "week-start-day" : "MONDAY",
+    "current-theme" : ""
+  },
+  "file-path" : ""
+}

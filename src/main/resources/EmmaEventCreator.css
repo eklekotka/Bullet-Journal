@@ -1,0 +1,67 @@
+/*CHANGE EVENT CREATION POP-UP*/
+#eventPane {
+    -fx-background-color : #ffa6c1;
+}
+
+#exitButton {
+    -fx-background-color: #fff0f3;
+}
+
+#saveButton {
+    -fx-background-color: #fff0f3;
+}
+
+#eventName {
+    -fx-background-color: #fff0f3;
+}
+
+#eventDesc {
+    -fx-background-color: #fff0f3;
+}
+
+#dayLabel {
+    -fx-background-color: #fff0f3;
+}
+#hourSpinner {
+    -fx-background-color: #fff0f3;
+}
+#minuteSpinner {
+    -fx-background-color: #fff0f3;
+}
+#startHourSpinner {
+    -fx-background-color: #fff0f3;
+}
+#startMinuteSpinner {
+    -fx-background-color: #fff0f3;
+}
+#categoryOpt {
+    -fx-background-color: #fff0f3;
+}
+
+#eventCreator {
+    -fx-text-fill: #ff5d8f;
+}
+
+#eventNameLabel {
+    -fx-text-fill: #ff5d8f;
+}
+
+#descLabel {
+    -fx-text-fill: #ff5d8f;
+}
+
+#days {
+    -fx-text-fill: #ff5d8f;
+}
+
+#duration {
+    -fx-text-fill: #ff5d8f;
+}
+
+#startTime{
+    -fx-text-fill: #ff5d8f;
+}
+
+#category {
+    -fx-text-fill: #ff5d8f;
+}

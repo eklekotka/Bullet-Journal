@@ -1,0 +1,48 @@
+/*CHANGE TASK POP-UP*/
+#cPane{
+    -fx-background-color: #ced4da;
+}
+
+#exitButton{
+    -fx-background-color: #828C98;
+    -fx-text-fill: #FFFFFF;
+}
+
+#name{
+    -fx-background-color: #828C98;
+    -fx-text-fill: #FFFFFF;
+}
+
+#description{
+    -fx-background-color: #828C98;
+    -fx-text-fill: #FFFFFF;
+}
+
+#dayLabel{
+    -fx-background-color: #fff;
+}
+
+#categoryOpt{
+    -fx-background-color: #fff;
+}
+#saveButton{
+    -fx-background-color: #ffff;
+    -fx-text-fill: #828C98;
+
+}
+
+#nameLabel{
+    -fx-text-fill: #495057;
+}
+#taskNameLabel{
+    -fx-text-fill: #495057;
+}
+#descriptionLabel{
+    -fx-text-fill: #495057;
+}
+#dayChooseLabel{
+    -fx-text-fill: #495057;
+}
+#categoryLabel {
+    -fx-text-fill: #495057;
+}

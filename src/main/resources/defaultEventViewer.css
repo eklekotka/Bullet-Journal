@@ -1,0 +1,19 @@
+
+
+#eventDescriptionLabel{
+    -fx-text-fill: #85B2AA;
+}
+
+#eventShowLabel{
+    -fx-text-fill: #85B2AA;
+}
+
+#eventDelete{
+    -fx-background-color:  #666F78;
+    -fx-text-fill: #FFFF;
+}
+
+#eventExit{
+    -fx-background-color:  #666F78;
+    -fx-text-fill: #FFFF;
+}

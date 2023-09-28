@@ -1,0 +1,26 @@
+#taskShow{
+    -fx-background-color: #ced4da;
+}
+
+#taskDescriptionShow{
+    -fx-text-fill:  BLACK;
+    -fx-background-color: #ced4da;
+}
+
+#complete{
+    -fx-text-fill:  BLACK;
+}
+
+#taskNameShow{
+    -fx-text-fill:  BLACK;
+}
+
+#taskDelete{
+    -fx-background-color: #495057;
+    -fx-text-fill: #ffffff;
+}
+
+#taskExit{
+    -fx-background-color: #495057;
+    -fx-text-fill: #ffffff;
+}

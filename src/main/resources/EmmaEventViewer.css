@@ -1,0 +1,22 @@
+#eventShow{
+    -fx-background-image: url("green.png");
+}
+
+#eventDescriptionLabel{
+    -fx-text-fill: #469d89;
+    -fx-background-color: #99e2b4;
+}
+
+#eventShowLabel{
+    -fx-text-fill: #469d89;
+    -fx-background-color: #99e2b4;
+}
+
+#eventDelete{
+    -fx-background-color: #036666;
+    -fx-text-fill: #036666;
+}
+
+#eventExit{
+    -fx-background-color: #036666;
+}

@@ -1,0 +1,23 @@
+#eventShow{
+    -fx-background-image: url('Waves.png');
+}
+
+#eventDescriptionLabel{
+    -fx-text-fill: #90e0ef;
+    -fx-background-color: #245ABA;
+}
+
+#eventShowLabel{
+    -fx-text-fill: #90e0ef;
+    -fx-background-color: #245ABA;
+}
+
+#eventDelete{
+    -fx-background-color: #036666;
+    -fx-text-fill: #FFFF;
+}
+
+#eventExit{
+    -fx-background-color: #036666;
+    -fx-text-fill: #FFFF;
+}

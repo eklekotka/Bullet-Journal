@@ -1,0 +1,67 @@
+{
+  "planner-week" : [ {
+    "day" : "SUNDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "max-issues" : 0,
+    "has-hit-items-max" : false
+  }, {
+    "day" : "MONDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "max-issues" : 0,
+    "has-hit-items-max" : false
+  }, {
+    "day" : "TUESDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "max-issues" : 0,
+    "has-hit-items-max" : false
+  }, {
+    "day" : "WEDNESDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "max-issues" : 0,
+    "has-hit-items-max" : false
+  }, {
+    "day" : "THURSDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "max-issues" : 0,
+    "has-hit-items-max" : false
+  }, {
+    "day" : "FRIDAY",
+    "tasks" : [ {
+      "name" : "Laundry",
+      "day" : "FRIDAY",
+      "category" : "Chores",
+      "description" : "Do Laundry",
+      "completed" : false
+    } ],
+    "events" : [ {
+      "name" : "Lecture",
+      "day" : "FRIDAY",
+      "category" : "School",
+      "time" : "09:50",
+      "description" : "Lecture for OOD"
+    }, {
+      "name" : "Lab",
+      "day" : "FRIDAY",
+      "category" : "School",
+      "time" : "08:00",
+      "description" : "Lab for OOD"
+    } ],
+    "max-issues" : 9,
+    "has-hit-items-max" : false
+  }, {
+    "day" : "SATURDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "max-issues" : 0,
+    "has-hit-items-max" : false
+  } ],
+  "categories" : [ "School", "Chores" ],
+  "max-to-dos" : 20,
+  "week-start-day" : null,
+  "current-theme" : ""
+}

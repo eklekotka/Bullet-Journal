@@ -1,0 +1,100 @@
+/*CHANGE COLOR SECTION*/
+
+/*Change the background color to blue */
+.root{
+    -fx-background-color: #101174;
+}
+
+/*Change the sideBar panel color to a lighter blue */
+#sidePanel{
+    -fx-background-image: url('Crabs.png');
+}
+
+/*change top panel color */
+#weekNamePane{
+    -fx-background-color: #297CDB;
+}
+
+#categoriesBackground{
+    -fx-background-color: #28A7DA;
+}
+
+#settingLabel {
+    -fx-text-fill: #ffffff;
+}
+
+#dropDownButton{
+    -fx-background-color: #F0D7F7;
+}
+
+#saveWeek{
+    -fx-background-color: #00346F;
+}
+
+/*change top panel color */
+.button{
+    -fx-background-color: #00346F;
+    -fx-highlight-text-fill: #ffffff;
+}
+
+#savePass{
+    -fx-highlight-text-fill: #ffffff;
+}
+
+.label{
+    -fx-text-fill: #03a1fc;
+}
+
+.color-picker {
+    -fx-background-color: #00346F;
+}
+
+.split-menu-button {
+    -fx-background-color: #111111;
+    -fx-text-fill: #ffffff;
+
+}
+
+#mondayPane{
+    -fx-background-image: url("Beach_Balls.png");
+}
+
+#tuesdayPane{
+    -fx-background-image: url("Waves.png");
+}
+#wednesdayPane{
+    -fx-background-image: url("suns.png");
+}
+#thursdayPane{
+    -fx-background-image: url("Beach_Balls.png");
+}
+#fridayPane{
+    -fx-background-image: url("Waves.png");
+}
+#saturdayPane{
+    -fx-background-image: url("suns.png");
+}
+#sundayPane{
+    -fx-background-image: url("Beach_Balls.png");
+}
+
+
+
+
+/*CHANGE FONT SECTION*/
+
+/*change the font to typeWrite*/
+.root {
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: WHITE;
+}
+
+.label {
+    -fx-font-family: "American Typewriter";
+}
+
+.text-field {
+    -fx-font-family: "American Typewriter";
+    -fx-font-size: 27;
+}
+

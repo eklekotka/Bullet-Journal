@@ -1,0 +1,34 @@
+/*CHANGE COLOR SECTION*/
+
+/*Change the sideBar panel color to a lighter blue */
+#sidePanel{
+    -fx-background-color: #828C98;
+}
+
+/*change top panel color */
+#weekNamePane{
+    -fx-background-color:  #666F78;
+}
+
+#saveWeek{
+    -fx-background-color:  #85B2AA;
+}
+
+.button {
+    -fx-background-color: #85B2AA;
+}
+
+.root {
+    -fx-font-family: -apple-system;
+}
+
+.label {
+    -fx-font-family: -apple-system;
+}
+
+.text-field {
+    -fx-font-family: -apple-system;
+    -fx-font-size: 27;
+}
+
+

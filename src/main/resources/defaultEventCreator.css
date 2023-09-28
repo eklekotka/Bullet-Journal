@@ -1,0 +1,75 @@
+/*CHANGE EVENT CREATION POP-UP*/
+#eventPane {
+    -fx-background-image: url('sprinkles.png');
+}
+
+#exitButton {
+    -fx-background-color: #adb5bd;
+    -fx-text-fill: #ffffff;
+}
+
+#saveButton {
+    -fx-background-color: #adb5bd;
+    -fx-text-fill: #ffffff;
+}
+
+#eventName {
+    -fx-background-color: #dee2e6;
+}
+
+#eventDesc {
+    -fx-background-color: #dee2e6;
+}
+
+#dayLabel {
+    -fx-background-color: #dee2e6;
+
+}
+#hourSpinner {
+    -fx-background-color: #dee2e6;
+    -fx-text-fill: BLACK;
+}
+#minuteSpinner {
+    -fx-background-color: #dee2e6;
+    -fx-text-fill: BLACK;
+}
+#startHourSpinner {
+    -fx-background-color: #dee2e6;
+    -fx-text-fill: BLACK;
+}
+#startMinuteSpinner {
+    -fx-background-color: #dee2e6;
+    -fx-text-fill: BLACK;
+}
+#categoryOpt {
+    -fx-background-color: #dee2e6;
+    -fx-text-fill: BLACK;
+}
+
+#eventCreator {
+    -fx-text-fill: #ffffff;
+}
+
+#eventNameLabel {
+    -fx-text-fill: #ffffff;
+}
+
+#descLabel {
+    -fx-text-fill: #ffffff;
+}
+
+#days {
+    -fx-text-fill: #ffffff;
+}
+
+#duration {
+    -fx-text-fill: #ffffff;
+}
+
+#startTime{
+    -fx-text-fill: #ffffff;
+}
+
+#category {
+    -fx-text-fill: #ffffff;
+}

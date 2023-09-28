@@ -1,0 +1,26 @@
+#taskShow{
+    -fx-background-image: url('Waves.png');
+}
+
+#taskDescriptionShow{
+    -fx-text-fill:  #101174;
+    -fx-background-color: #28A7DA;
+}
+
+#complete{
+    -fx-text-fill:  #101174;
+}
+
+#taskNameShow{
+    -fx-text-fill:  #101174;
+}
+
+#taskDelete{
+    -fx-background-color: #101174;
+    -fx-text-fill: #ffffff;
+}
+
+#taskExit{
+    -fx-background-color: #101174;
+    -fx-text-fill: #ffffff;
+}

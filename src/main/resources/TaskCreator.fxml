@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Scene fill="#e110da" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <AnchorPane fx:id="cPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="428.0" prefWidth="518.0">
+      <children>
+         <VBox prefHeight="427.0" prefWidth="518.0">
+            <children>
+               <Button fx:id="exitButton" mnemonicParsing="false" prefHeight="36.0" prefWidth="63.0" text="Exit" textFill="WHITE" />
+               <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="522.0" text="Task Creator!!!" textAlignment="CENTER" textFill="#1e1d1d">
+                  <font>
+                     <Font name="Skia" size="24.0" />
+                  </font>
+               </Label>
+               <HBox prefHeight="37.0" prefWidth="199.0">
+                  <children>
+                     <Label fx:id="taskNameLabel" prefHeight="200.0" prefWidth="200.0" text="  Task name: ">
+                        <font>
+                           <Font name="Lucida Calligraphy Italic" size="24.0" />
+                        </font>
+                        <textFill>
+                           <LinearGradient endX="1.0" endY="1.0" startX="0.33712122702237335" startY="0.07954542384003149">
+                              <stops>
+                                 <Stop>
+                                    <color>
+                                       <Color red="0.7052631378173828" green="0.13321638107299805" blue="0.5527173280715942" />
+                                    </color>
+                                 </Stop>
+                                 <Stop offset="0.1211305518169583">
+                                    <color>
+                                       <Color red="0.7052631378173828" green="0.13321638107299805" blue="0.5527173280715942" />
+                                    </color>
+                                 </Stop>
+                                 <Stop offset="1.0">
+                                    <color>
+                                       <Color red="1.0" green="1.0" blue="1.0" />
+                                    </color>
+                                 </Stop>
+                              </stops>
+                           </LinearGradient>
+                        </textFill>
+                     </Label>
+                     <TextField fx:id="name" alignment="BASELINE_CENTER" prefHeight="100.0" prefWidth="100.0" promptText="enter task name" HBox.hgrow="ALWAYS">
+                        <font>
+                           <Font name="Brush Script MT Italic" size="12.0" />
+                        </font>
+                     </TextField>
+                  </children>
+               </HBox>
+               <HBox prefHeight="87.0" prefWidth="518.0">
+                  <children>
+                     <Label fx:id="descriptionLabel" text="  Description: " textFill="#ff64f7">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="24.0" />
+                        </font>
+                     </Label>
+                     <TextArea fx:id="description" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="412.0" HBox.hgrow="ALWAYS" />
+                  </children>
+               </HBox>
+               <HBox prefHeight="58.0" prefWidth="518.0">
+                  <children>
+                     <Label fx:id="dayChooseLabel" prefHeight="29.0" prefWidth="98.0" text="  Day:  " textFill="#ff65ea">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="24.0" />
+                        </font>
+                     </Label>
+                     <SplitMenuButton fx:id="dayLabel" mnemonicParsing="false" text="Options">
+                        <items>
+                           <MenuItem fx:id="sunday" mnemonicParsing="false" text="Sunday" />
+                           <MenuItem fx:id="monday" mnemonicParsing="false" text="Monday" />
+                           <MenuItem fx:id="tuesday" mnemonicParsing="false" text="Tuesday" />
+                           <MenuItem fx:id="wednesday" mnemonicParsing="false" text="Wednesday" />
+                           <MenuItem fx:id="thursday" mnemonicParsing="false" text="Thursday" />
+                           <MenuItem fx:id="friday" mnemonicParsing="false" text="Friday" />
+                           <MenuItem fx:id="saturday" mnemonicParsing="false" text="Saturday" />
+                        </items>
+                     </SplitMenuButton>
+                  </children>
+               </HBox>
+               <HBox prefHeight="100.0" prefWidth="200.0">
+                  <children>
+                     <Label fx:id="categoryLabel" text="  Category:  " textFill="#ff5ce9">
+                        <font>
+                           <Font name="Edwardian Script ITC" size="24.0" />
+                        </font>
+                     </Label>
+                     <ComboBox fx:id="categoryOpt" accessibleRole="BUTTON" prefWidth="200.0" />
+                     <Button fx:id="saveCategory" mnemonicParsing="false" text="Save new" />
+                  </children></HBox>
+               <HBox prefHeight="105.0" prefWidth="518.0">
+                  <children>
+                     <Label text="                                                                                              " />
+                     <Button fx:id="saveButton" layoutX="100.0" layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" text="Save!">
+                        <textFill>
+                           <LinearGradient endX="1.0" endY="1.0" startX="0.33712122702237335">
+                              <stops>
+                                 <Stop>
+                                    <color>
+                                       <Color red="0.9263157844543457" green="0.09949317574501038" blue="0.5818063616752625" />
+                                    </color>
+                                 </Stop>
+                                 <Stop offset="1.0">
+                                    <color>
+                                       <Color red="1.0" green="1.0" blue="1.0" />
+                                    </color>
+                                 </Stop>
+                              </stops>
+                           </LinearGradient>
+                        </textFill>
+                     </Button>
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>
